@@ -3,7 +3,7 @@
     --border-color: black;
     --border-size: 2px;
     --border-type: solid;
-    --primary-color: rgb(210, 180, 140) ;
+    --primary-color: rgba(210, 180, 140, 0.95) ;
     --secondary-color: rgb(265, 228, 196); 
     --footer-height: 50px;
 }
@@ -29,6 +29,10 @@ header, footer {
     width: 100%;
 }
 
+footer {
+    bottom: 0%;
+}
+
 .links, #copyright {
     text-align: center;
     background-color: var(--secondary-color);
@@ -44,9 +48,10 @@ header, footer {
 .box {
     border: var(--border-size) var(--border-type) var(--border-color);
     padding: 1%;
-    
+    width: 25%;
     margin: 1%;
     background-color: var(--secondary-color);
+    text-align: center;
 }
 
 
@@ -58,6 +63,32 @@ a, #copyright {
     font-size: 1rem;
 }
 
-img {
+.logo {
     height : var(--header-height);
+}
+
+.about_content {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    /* background-image: url("./logo_notext.jpg"); */
+    /* opacity: 0.3; */
+    text-align: center;
+    padding: 10%;
+    
+}
+
+.about_img {
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center;
+    /* background-image: url("./logo_notext.jpg"); */
+    opacity: 0.2;
+    text-align: center;
+    /* padding: 10%; */
+
+}
+
+video {
+    width: 100%;
 }
