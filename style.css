@@ -40,19 +40,6 @@ header, footer {
     background-color: var(--secondary-color);
 }
 
-.links, #copyright {
-    text-align: center;
-    background-color: var(--secondary-color);
-    margin: 1%;
-}
-
-.options, .banner, .tier2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 15px;
-}
-
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +47,27 @@ header, footer {
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.links, #copyright {
+    text-align: center;
+    background-color: var(--secondary-color);
+    margin: 1%;
+}
+
+.options, .bannerbox, .tier2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.tier2 > * {
+    flex: 1;
+}
+
+.aside {
+    margin-left: 1%;
+    margin-bottom: 1%; 
 }
 
 .group {
