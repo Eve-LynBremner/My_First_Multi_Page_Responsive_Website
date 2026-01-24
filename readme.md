@@ -1,3 +1,11 @@
+## Submission
+
+GitHub Repo/Code 
+https://github.com/Eve-LynBremner/My_First_Multi_Page_Responsive_Website.git
+
+Page
+https://eve-lynbremner.github.io/My_First_Multi_Page_Responsive_Website/
+
 ## Challenge
 
 Using the wireframe you created as your first exercise, develop it into a fully functioning, multi-page website. The website should showcase the following techniques you've learned this week:
