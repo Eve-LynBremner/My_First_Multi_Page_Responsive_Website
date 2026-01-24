@@ -7,35 +7,79 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <img src="./logo.jpg" alt="logo" class="logo">
-        <a href="index.html">Home</a>
-        <a href="index.html#options">Play Ideas</a>
-        <a href="about.html">About</a>
-        <a href="#">Contact</a>
+    <header class="header">
+        <div class="nav">
+            <img src="./logo.jpg" alt="logo" class="logo">
+            <a href="index.html">Home</a>
+            <a href="logic.html">Logical</a>
+            <a href="play.html">Playful</a>
+            <a href="crafts.html">Crafty</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
     </header>
 
     <main>
-        <section class="banner">
-            <img src="" alt="" class="banner instagram">
-            <img src="" alt="" class="banner tiktok">
-            <img src="" alt="" class="banner facebook">
+        <section>
+            <div class="bannerbox">
+                <img src="./banner.png" alt="banner image" class="bannerimage">
+            </div>    
         </section>
 
-        <section class="options" id="options">
+        <section class="options">
             <div class="box logic">
                 <h2>Logical Games</h2>
-                <p> description        </div>
+                <img src="./logic.jpg" alt="image of a logical game">
+                <p>Activities that build problem‑solving skills through puzzles, patterns, and simple challenges that get little minds thinking in new ways.</p>        
+                <a href="logic.html" class="button">More</a>
+            </div>
 
             <div class="box play">
                 <h2>Playful Activities</h2>
-                <p>description </p>
+                <img src="./play.jpg" alt="image of messy play">
+                <p>Fun, open‑ended activities designed to spark imagination, encourage movement, and support learning through joyful, hands‑on play.</p>
+                <a href="play.html" class="button">More</a>
             </div>
 
             <div class="box crafts">
                 <h2>Arts and Crafts</h2>
-                <p> description</p>
+                <img src="./craft.jpg" alt="image of a craft">
+                <p>Creative projects that inspire children to make, build, and explore using everyday materials while developing fine‑motor skills and confidence.</p>
+                <a href="crafts.html" class="button">More</a>
             </div>
+        </section>
+
+        <section class="tier2">
+            <section class="group">
+                <div class="box aside brand">
+                    <h2 class="brandtext">Brands we have worked with...</h2>
+                </div>
+                <div class="box aside amazon">
+                    <br>
+                    <a href="https://amzn.to/4jWisY3" class="button amazonbutton" target="_blank" rel="noopener noreferrer">Visit Amazon Storefront</a>
+                </div>
+            </section>
+
+            <section class="box group form">
+                <h2>Contact us</h2>
+                <br>
+                <form>
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" name="name_input" id="name">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email_input" id="email">
+                    <br><br>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea name="message_input" id="message" rows="15"></textarea>
+                    <br><br>
+                    <button class="button sub" type="submit">Submit</button>
+                    <br>
+                </form>
+            </section>
         </section>
 
     </main>
